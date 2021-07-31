@@ -89,7 +89,7 @@ with T[i] is a candidate Tour , and f is the Fitness Function .
 
 > The Fitness function in This case will looks like this :
 
-![Fitness Function](Resources/Fitness.PNG)
+![Fitness Function](Resources/fitness.PNG)
 
 with d is the euclidean distance between two point (Cities in this case ) :
 

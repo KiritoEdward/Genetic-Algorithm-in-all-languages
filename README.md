@@ -3,8 +3,11 @@
 > What is Genetic Algorithm ?
 genetic algorithm (GA) is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms (EA). Genetic algorithms are commonly used to generate high-quality solutions to optimization and search problems by relying on biologically inspired operators such as mutation, crossover and selection [[1]](en.wikipedia.org/wiki/Genetic_algorithm).
 
-> The PseudoCode of Genetic Algorithm is like Below :
-![Genetic Algorithm](Resources/GA.png)
+The PseudoCode of Genetic Algorithm is like Below :
+ 
+<div align="center" >
+<img src="Resources/GA.png" width="400" height="300">
+</div>
 
 * Genetic Algorithm Contains Five Steps :
 
@@ -19,7 +22,9 @@ A population is a group of individuals and each individual is a candidate soluti
 
 An individual contains  a set of parameters  known as Genes. those Genes form what we called Chromosome .   
 
-![Population](Resources/Population.png)
+<div align="center" >
+<img src="Resources/Population.png" width="300" height="200">
+</div>
 
 To start a genetic algorithm, you have to provide it with a population to evolve. There are two main methods to initialize a population in a genetic algorithm:
 
@@ -32,7 +37,9 @@ To start a genetic algorithm, you have to provide it with a population to evolve
 
 A fitness function is a particular type of objective function which takes as input a candidate solution and outputs the quality of this solution, therefore the fitness function makes it possible to evaluate the candidate solutions.
 
-![Fitness Function](Resources/Fitness.jpg)
+<div align="center" >
+<img src="Resources/Fitness.jpg" width="300" height="200">
+</div>
 
 ---
 
@@ -77,24 +84,29 @@ Genetic Algorithm can bet used to find high quality Solution in a short time for
 
 > The Traveling Salesman Problem looks like this :
 
-![TSP](Resources/TSP.png)
-
-
+<div align="center" >
+<img src="Resources/TSP.png" width="300" height="200">
+</div>
 
 TSP Mathematical Model is like below :
 
-![TSP](Resources/TspFormula.PNG)
+<div align="center" >
+<img src="Resources/TspFormula.PNG" width="300" height="80">
+</div>
 
 with T[i] is a candidate Tour , and f is the Fitness Function .
 
 > The Fitness function in This case will looks like this :
 
-![Fitness Function](Resources/fitness.PNG)
+<div align="center" >
+<img src="Resources/fitness.PNG" width="300" height="80">
+</div>
 
 with d is the euclidean distance between two point (Cities in this case ) :
 
-![euclidean distance](Resources/distance.PNG)
-
+<div align="center" >
+<img src="Resources/distance.PNG" width="300" height="80">
+</div>
 
 ## References :
 
@@ -113,4 +125,4 @@ with d is the euclidean distance between two point (Cities in this case ) :
 
 ## Contributing :
 
-> **if you want to contribute To This Repository just fork this repository and make your changes , and then make a pull Request .**
+**if you want to contribute To This Repository just fork this repository and make your changes , and then make a pull Request .**

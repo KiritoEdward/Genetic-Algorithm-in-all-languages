@@ -16,6 +16,7 @@ The PseudoCode of Genetic Algorithm is like Below :
       * Selection .
       * CrossOver .
       * Mutation .
+
 ---
 ## Initial Population :
 A population is a group of individuals and each individual is a candidate solution to The problem. 

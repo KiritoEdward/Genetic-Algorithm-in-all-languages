@@ -259,22 +259,7 @@ public class Population {
 
 ```
 
-Function To Generate The Initial Population :
 
-```c
-void init_population(population *pop)
-{
-	readDataSet();
-	tour tour = getTour(),*pointerT;
-	pop->tours[0] = tour;
-	for(pointerT = pop->tours + 1 ; pointerT < pop->tours + POP_SIZE ; pointerT++)
-	{
-		*(pointerT) = getRandomTour(*(pointerT - 1));
-	}
-	calculateFitnessForAll(pop);
-	pop->fittest = getFittestTour(*pop);
-}
-```
 ---
 ### Fitness Function :
 
